@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: lightblue;
+  background-color: rgb(94, 94, 94);
   background-attachment: fixed;
+}
+p,h1,h2,h3,h4,h5{
+  color: white;
+  text-shadow: 2px 2px black;
+
 }
 .header {
   font-size: 3rem;
@@ -30,7 +35,7 @@ body {
   background-size: cover;
 }
 img {
-  border: 2px black solid;
+  border: 2px white solid;
   width: 200px;
   height: 200px;
 }
@@ -44,6 +49,7 @@ video {
 .projimg:hover {
   opacity: 1;
 }
+
 .column {
   float: left;
   width: 25%;
@@ -51,10 +57,12 @@ video {
   margin-top: 60px;
 }
 .footer {
-  margin-top: 90%;
+  margin-top: 80%;
 }
 .footerdetails {
-  margin-top: 30%;
+  font-size: 2.5rem;
+  padding-top: 10%;
+  text-align: center;
 }
 .text {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -63,13 +71,15 @@ video {
 }
 .test1 {
   display: flex;
+  flex-direction: row;
   padding-top: 100px;
 }
-.vert1 {
+.divproj {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
+  flex-direction: row;
+  gap: 100px;
 }
+
 .text1 {
   display: flex;
   flex-direction: column;
@@ -122,12 +132,19 @@ height: 250px;
 .professionalpic{
   height: 300px;
   width: 250px;
-  margin-left: 85%;
+  margin-left: 82%;
   margin-top: -5%;
-  margin-bottom: -12%;
+  margin-bottom: -10%;
   border-radius: 20px;
 }
 .botpicture{
   margin-left: 45%;
 
+}
+.resumepic{
+height: auto;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
