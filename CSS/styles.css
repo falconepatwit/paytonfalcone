@@ -2,20 +2,25 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(34, 40, 78);
+  background-color: rgb(174,198,207);
   background-attachment: fixed;
 }
 p{
-  color:white;
-  text-shadow: 1px 1px black;
+  color:black;
+  /* text-shadow: 1px 1px black; */
 }
 h1,h2,h3,h4,h5{
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
 
 }
 .header {
-  font-size: 3rem;
+  font-size: 3vw;
+  text-align: center;
+}
+.projects {
+
+  font-size: 2vw;
+  text-align: center;
 }
 .headerdetails {
   font-size: 3rem;
@@ -38,8 +43,9 @@ h1,h2,h3,h4,h5{
   background-size: cover;
 }
 img {
-  border: 2px white solid;
+  border: 2px black solid;
   width: 200px;
+  /* width:100%; */
   height: 200px;
   border-radius: 20px;
 }
@@ -83,7 +89,8 @@ iframe{
 .divproj {
   display: flex;
   flex-direction: row;
- 
+  align-items: center;
+  justify-content: center;
   gap: 100px;
 }
 
@@ -98,7 +105,6 @@ iframe{
   padding-right: 25%;
   padding-top: 25%;
   padding-top: 5%;
-  text-shadow: 1px 1px black;
   font-size: 1.5rem;
 
 }
@@ -135,15 +141,15 @@ height: 250px;
   width:450px;
   height:250px; 
   border: 0px;
-  border: 2px white solid;
+  border: 2px black solid;
 
 }
 .professionalpic{
-  height: 300px;
-  width: 250px;
+  height: auto;
+  width: 15%;
   /* margin-left: 82%; */
   margin-top: -5%;
-  margin-left: auto;
+  margin-right: auto;
   display: block;
   margin-bottom: -10%;
   border-radius: 20px;
