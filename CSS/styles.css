@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(94, 94, 94);
+  background-color: rgb(34, 40, 78);
   background-attachment: fixed;
 }
-p,h1,h2,h3,h4,h5{
+p{
+  color:white;
+  text-shadow: 1px 1px black;
+}
+h1,h2,h3,h4,h5{
   color: white;
   text-shadow: 2px 2px black;
 
@@ -30,7 +34,6 @@ p,h1,h2,h3,h4,h5{
 }
 .platformer {
   background-attachment: fixed;
-  /* background-image: url(../images/jumpking.png); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,16 +45,14 @@ img {
 }
 iframe{
   border-radius: 20px;
+
 }
-video {
-  border: 2px black solid;
- 
-}
+
 .projimg {
-  opacity: 0.3;
+  opacity: 1;
 }
 .projimg:hover {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .column {
@@ -77,10 +78,12 @@ video {
   display: flex;
   flex-direction: row;
   padding-top: 100px;
+
 }
 .divproj {
   display: flex;
   flex-direction: row;
+ 
   gap: 100px;
 }
 
@@ -95,7 +98,7 @@ video {
   padding-right: 25%;
   padding-top: 25%;
   padding-top: 5%;
-
+  text-shadow: 1px 1px black;
   font-size: 1.5rem;
 
 }
@@ -132,6 +135,8 @@ height: 250px;
   width:450px;
   height:250px; 
   border: 0px;
+  border: 2px white solid;
+
 }
 .professionalpic{
   height: 300px;
