@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slime Slayer RPG</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body class="bot">
+    <h1 class="headerdetailsSlime">Slime Slayer RPG</h1>
+    <h3 class="smallerheaderdetails">Language: C#</h3>
+    <br>
+    <div class="detailspicdiv">
+    <!-- <img src="./images/slimepic1.png" alt="" class="detailspicslime" /> -->
+
+    <img src="./images/slimepic2.png" alt="" class="detailspicslime" />
+    <img src="./images/slimepic3.png" alt="" class="detailspicslime" />
+    <img src="./images/slimepic4.png" alt="" class="detailspicslime" />
+    <iframe src="https://www.youtube.com/embed/TAr36yE-sTY"class="platformervid"></iframe>
+
+    <!-- <video src = "images/SlimeKingVid.mp4" class = "detailspicslime" width="400" height="400" controls></video> -->
+
+  </div>
+    <!-- <img src="./images/bcgrnd.png" alt="" class="detailspic" /> -->
+    
+    <p class="moredetail">
+      This game currently has 5 different zones, each with a different enemy type: 
+      Grassy Plains, Fluorescent Fields, Cerulean Clearing, The Final Forest, and King Slime's 
+      Castle. The game contains one class currently (the knight), although I am 
+      currently working on the mage and archer classes. The game has a boss for the 
+      level, the king slime, which has two different attack types that challenge the 
+      player to use the mechanics in creative ways to defeat him. There is a questing 
+      system, in which each area contains its own unique quest, and a shop in each area to 
+      spend the gold received by completing these quests or defeating enemies. The project 
+      has a Spawn Manager which, after a cooldown, will spawn the correct enemies in a 
+      random area inside of their specific zone (up until the spawn cap for that area). 
+      There is a saving and loading system, which creates files on the player's computer
+       storing the variables that are required in the playthrough, such as location, 
+       current health, attack, maximum health, and many more. This data is converted to 
+       binary using a Binary Formatter, to ensure that the player is unable to change 
+       their save data to get an advantage. The save method specifically creates a file 
+       stream which will in turn create and serialize the save data inside of the 
+       player's computer, a directory that is decided by the "persistentDataPath" 
+       command. When running the load function, it checks if there is a file inside of 
+       that specific path, and if so it will open that data using a new file stream, 
+       deserializing and returning the data found. This game also included an array of sound effects, 
+       consisting of two different background music tracks, two player attacking sound effects, 
+       enemy idle and hurt sound effects, block sound effects, and much more. These sounds 
+       were able to be adjusted using the options menu, which incorporated a volume slider 
+       so that the player could easily adjust the sound without leaving the game. 
+    </p>
+    <h3 class="moredetail">The demo of this game is available right now to try on Itch: <a href="https://cruelean.itch.io/slime-slayer-demo" target="_blank">Here</a></h3>
+    <a href="index.html"><h1 class="footerdetails">Home</h1></a>
+  </body>
+</html>

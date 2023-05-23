@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platformer</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body class="platformer">
+    <h1 class="headerdetailsSlime">Platformer Game</h1>
+    <h3 class="smallerheaderdetails">Language: C#</h3>
+    <div class="detailspicdiv">
+    <img src="./images/platformer1.png" class="platformerpic"alt="Platformer Picture">
+    <img src="./images/platformer2.png"class="platformerpic"alt="Platformer Picture">
+
+    <img src="./images/platformer3.png" class="platformerpic"alt="Platformer Picture">
+    <iframe src="https://www.youtube.com/embed/TAr36yE-sTY"class="platformervid"></iframe>
+    <!-- <video src="./images/PlatformerVid.mp4" class="platformervid" alt="Platformer Video"controls></video> -->
+
+    <!-- <img src="./images/bcgrnd.png" alt=""class="detailspic" /> -->
+    </div>
+    <p class="moredetail">
+      This platformer game was created in the Unity Engine, and consisted of a core gameplay loop where the player 
+      would try to maneuver their way through difficult terrain by using complex movement. It contained a spawn manager to instatiate the fireballs at a 
+      fixed interval, increasing that frequency when the key is obtained, and Rigidbodies along with box colliders to detect collision. The
+      player also has to dodge these fireball projectiles which are constantly instatiating from the sky. If these fireballs collide with the player, then they will take 
+      lose a heart and respawn at their farthest progressed checkpoint, if they lose all three, then they will reach the 
+      game over screen, and restart the game from the beginning. The player must reach the end of the stage, where they will collect
+      a key, triggering an event which will increase the difficulty of the stage.
+       The fireballs will fall much more frequently, and much faster, making it much harder for the player as 
+       they have to travel back towards the beginning of the stage and use the key to open the chest.
+       If the player is able to bring the key to the chest and open it, they successfully complete the level. The game 
+       also included a sound system, complete with jump, hurt, victory, and game over sound effects, paired together with background 
+       music. 
+    </p>
+    <a href="index.html"><h1 class="footerdetails">Home</h1></a>
+  </body>
+</html>
