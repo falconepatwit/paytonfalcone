@@ -38,6 +38,10 @@ img {
   border: 2px white solid;
   width: 200px;
   height: 200px;
+  border-radius: 20px;
+}
+iframe{
+  border-radius: 20px;
 }
 video {
   border: 2px black solid;
@@ -132,8 +136,10 @@ height: 250px;
 .professionalpic{
   height: 300px;
   width: 250px;
-  margin-left: 82%;
+  /* margin-left: 82%; */
   margin-top: -5%;
+  margin-left: auto;
+  display: block;
   margin-bottom: -10%;
   border-radius: 20px;
 }
