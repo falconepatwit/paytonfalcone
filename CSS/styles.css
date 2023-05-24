@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5{
 }
 .projects {
 
-  font-size: 2vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 .headerdetails {
@@ -44,9 +44,10 @@ h1,h2,h3,h4,h5{
 }
 img {
   border: 2px black solid;
-  width: 200px;
-  /* width:100%; */
-  height: 200px;
+  /* width: 200px; */
+  width:30vh;
+  height: 30vh;
+  /* height: 200px; */
   border-radius: 20px;
 }
 iframe{
