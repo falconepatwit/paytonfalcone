@@ -24,19 +24,23 @@ h1,h2,h3,h4,h5{
 }
 
 .headerdetails {
+  text-align: center;
   font-size: 3rem;
-  margin-left: 40%;
+  
 }
 .headerdetailsSlime {
   font-size: 3rem;
-  margin-left: 37%;
+  text-align: center;
+
 }
 .headerdetailsClones {
   font-size: 3rem;
-  margin-left: 34%;
+  text-align: center;
+
 }
 .smallerheaderdetails {
-  margin-left: 45%;
+  text-align: center;
+
 }
 .platformer {
   background-attachment: fixed;
@@ -157,7 +161,10 @@ height: 250px;
   border-radius: 20px;
 }
 .botpicture{
-  margin-left: 41%;
+  /* margin-left: 41%; */
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .resumepic{
