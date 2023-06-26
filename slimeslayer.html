@@ -25,21 +25,21 @@
     <!-- <img src="./images/bcgrnd.png" alt="" class="detailspic" /> -->
     
     <p class="moredetail">
-      This game currently has 5 different zones, each with a different enemy type: 
+      This game currently has 5 different zones, each with a separate enemy type: 
       Grassy Plains, Fluorescent Fields, Cerulean Clearing, The Final Forest, and King Slime's 
       Castle. The game contains one class currently (the knight), although I am 
       currently working on the mage and archer classes. The game has a boss for the 
-      level, the king slime, which has two different attack types that challenge the 
+      level, the King Slime, which has two different attack types that challenge the 
       player to use the mechanics in creative ways to defeat him. There is a questing 
-      system, in which each area contains its own unique quest, and a shop in each area to 
-      spend the gold received by completing these quests or defeating enemies. The project 
-      has a Spawn Manager which, after a cooldown, will spawn the correct enemies in a 
-      random area inside of their specific zone (up until the spawn cap for that area). 
+      system, in which each area contains its unique quest in order to receive gold and experience.
+       Each area also includes a shop to 
+      spend the gold received through completing quests or defeating enemies. The project 
+      has a Spawn Manager that, after a cooldown, will spawn the correct enemies in a 
+      random area inside their specific zone (up until the spawn cap for that area). 
       There is a saving and loading system, which creates files on the player's computer
-       storing the variables that are required in the playthrough, such as location, 
+       storing the variables required in the playthrough, such as location, 
        current health, attack, maximum health, and many more. This data is converted to 
-       binary using a Binary Formatter, to ensure that the player is unable to change 
-       their save data to get an advantage. The save method specifically creates a file 
+       binary using a Binary Formatter, to ensure that the player cannot change their saved data to get an advantage. The save method specifically creates a file 
        stream which will in turn create and serialize the save data inside of the 
        player's computer, a directory that is decided by the "persistentDataPath" 
        command. When running the load function, it checks if there is a file inside of 

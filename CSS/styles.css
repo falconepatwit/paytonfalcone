@@ -19,23 +19,28 @@ h1,h2,h3,h4,h5{
 }
 .projects {
 
-  font-size: 2vw;
+  font-size: 2.5vw;
   text-align: center;
 }
+
 .headerdetails {
+  text-align: center;
   font-size: 3rem;
-  margin-left: 40%;
+  
 }
 .headerdetailsSlime {
   font-size: 3rem;
-  margin-left: 37%;
+  text-align: center;
+
 }
 .headerdetailsClones {
   font-size: 3rem;
-  margin-left: 34%;
+  text-align: center;
+
 }
 .smallerheaderdetails {
-  margin-left: 45%;
+  text-align: center;
+
 }
 .platformer {
   background-attachment: fixed;
@@ -44,9 +49,10 @@ h1,h2,h3,h4,h5{
 }
 img {
   border: 2px black solid;
-  width: 200px;
-  /* width:100%; */
-  height: 200px;
+  /* width: 200px; */
+  width:14vw;
+  height: 14vw;
+  /* height: 200px; */
   border-radius: 20px;
 }
 iframe{
@@ -155,7 +161,10 @@ height: 250px;
   border-radius: 20px;
 }
 .botpicture{
-  margin-left: 45%;
+  /* margin-left: 41%; */
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .resumepic{
